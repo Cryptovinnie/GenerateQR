@@ -1,0 +1,344 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wallet Address</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="QrCodeGen" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!--FlexSlider-->
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<script defer src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript">
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	  </script>
+<!--End-slider-script-->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!-- banner -->
+	<div class="header">	
+	</div>
+<!-- agileinfo -->
+<div class="agileinfo-services">
+		<div class="container">
+			<h2 class="w3l_head w3l_head1">Wallet address</h2>
+			<p class="w3ls-p">Please donate any payments to the bellow address'</p>
+			<div class="w3_agileits_services_grids">
+				<div class="col-md-4 w3_agileits_services_grid">
+					<div class="w3_agileits_services_grid_agile">
+						<div class="w3_agileits_services_grid_1">
+							<!--<i class="fa fa-question-circle" aria-hidden="true"></i>-->
+						<img src="images/BtcQr.png" alt=" " class="img-responsive" />	
+						</div>
+						<h3>Bitcoin</h3>
+						<input value="34yfnv6ZWnQHDCmjKDzcamomL7aFKexNej" id="BtcInput">
+						<script>
+							function BtcAdd() {
+							var copyText = document.getElementById("BtcInput");
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied the text: " + copyText.value);
+							}
+						</script>
+							<p>Copy Bitcoin address</p>				
+						<p><button class="btn info" onclick="BtcAdd()">Bitcoin Address</button></p>
+					</div>
+				</div>
+				<div class="col-md-4 w3_agileits_services_grid">
+					<div class="w3_agileits_services_grid_agile">
+						<div class="w3_agileits_services_grid_1">
+						
+							<img src="images/EthQr.png" alt=" " class="img-responsive" />
+							</div>
+						<h3>Ethereum</h3>
+						<input value="0xe91ef396ceCdfF0a4d249A138ae433fC872E65c5" id="EthInput">
+						<script>
+							function EthAdd() {
+							var copyText = document.getElementById("EthInput");
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied the text: " + copyText.value);
+							}
+						</script>
+						<p>Copy Ethereum address</p>
+						<p><p><button class="btn info" onclick="EthAdd()">Ethereum Address</button></p></p>
+					</div>
+				</div>
+				<div class="col-md-4 w3_agileits_services_grid">
+					<div class="w3_agileits_services_grid_agile">
+						<div class="w3_agileits_services_grid_1">
+							<img src="images/DshQr.png" alt=" " class="img-responsive" />
+							</div>
+						<h3>Dash</h3>
+						<input value="XbYuFfrsYcWaSGnqQMha244XqcNKf7gdbh" id="DashInput">
+						<script>
+							function DashAdd() {
+							var copyText = document.getElementById("DashInput");
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied the text: " + copyText.value);
+							}
+						</script>
+						<p>Copy Dash address</p>
+						<p><p><button class="btn info" onclick="DashAdd()">Dash Address</button></p></p>
+					</div>
+				</div>
+				<div class="col-md-4 w3_agileits_services_grid">
+					<div class="w3_agileits_services_grid_agile">
+						<div class="w3_agileits_services_grid_1">
+						<img src="images/KmdQr.png" alt=" " class="img-responsive" />	
+							</div>
+						<h3>Komodo</h3>
+						<input value="RTW1EHMJDhApFBid3XCiuinbwBvVQSKL9T" id="KmdInput">
+						<script>
+							function KmdAdd() {
+							var copyText = document.getElementById("KmdInput");
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied the text: " + copyText.value);
+							}
+						</script>
+							<p>Copy Komodo address</p>				
+						<p><button class="btn info" onclick="KmdAdd()">Komodo Address</button></p>
+					</div>
+				</div>
+				<div class="col-md-4 w3_agileits_services_grid">
+					<div class="w3_agileits_services_grid_agile">
+						<div class="w3_agileits_services_grid_1">
+							<img src="images/LskQr.png" alt=" " class="img-responsive" />
+							</div>
+						<h3>Lisk</h3>
+						<input value="8282819343275666699L" id="LiskInput">
+						<script>
+							function LiskAdd() {
+							var copyText = document.getElementById("LiskInput");
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied the text: " + copyText.value);
+							}
+						</script>
+							<p>Copy Lisk address</p>					
+						<p><button class="btn info" onclick="LiskAdd()">Lisk Address</button></p>
+					</div>
+				</div>
+				<div class="col-md-4 w3_agileits_services_grid">
+					<div class="w3_agileits_services_grid_agile">
+						<div class="w3_agileits_services_grid_1">
+							<img src="images/ArkQr.png" alt=" " class="img-responsive" />
+							</div>
+						<h3>Ark</h3>
+						<input value="AYFrHMPSXzohX3TTjVbQyJysqKWhGznJTq" id="ArkInput">
+						<script>
+							function ArkAdd() {
+							var copyText = document.getElementById("ArkInput");
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied the text: " + copyText.value);
+							}
+						</script>
+							<p>Copy Ark address</p>					
+						<p><button class="btn info" onclick="ArkAdd()">Ark Address</button></p>
+					</div>
+				</div>
+				<div class="col-md-4 w3_agileits_services_grid">
+					<div class="w3_agileits_services_grid_agile">
+						<div class="w3_agileits_services_grid_1">
+							<img src="images/SkyQr.png" alt=" " class="img-responsive" />
+							</div>
+						<h3>SkyCoin</h3>
+						<input value="Mw94qxsL6bhFWmbQ3PNNivEsr7T1gRhtzq" id="SkyInput">
+						<script>
+							function SkyAdd() {
+							var copyText = document.getElementById("SkyInput");
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied the text: " + copyText.value);
+							}
+						</script>
+							<p>Copy Sky address</p>					
+						<p><button class="btn info" onclick="SkyAdd()">Sky Address</button></p>
+					</div>
+				</div>
+				<div class="col-md-4 w3_agileits_services_grid">
+					<div class="w3_agileits_services_grid_agile">
+						<div class="w3_agileits_services_grid_1">
+							<img src="images/StlQr.png" alt=" " class="img-responsive" />
+							</div>
+						<h3>Stellar</h3>
+						<input value="GATD2WDZEUUA73CAX2EGYGFVTABQNW4ZIS5W6R3S7F2CGEU3RS7VODTH" id="StellarInput">
+						<script>
+							function StellarAdd() {
+							var copyText = document.getElementById("StellarInput");
+							copyText.select();
+							document.execCommand("Copy");
+							alert("Copied the text: " + copyText.value);
+							}
+						</script>
+							<p>Copy Stellar address</p>				
+						<p><button class="btn info" onclick="StellarAdd()">Stellar Address</button></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+  
+  
+  function redrawQrCode() {
+	// Show/hide rows based on bitmap/vector image output
+	var bitmapOutput = document.getElementById("output-format-bitmap").checked;
+	var scaleRow = document.getElementById("scale-row");
+	var svgXmlRow = document.getElementById("svg-xml-row");
+	if (bitmapOutput) {
+		scaleRow.style.removeProperty("display");
+		svgXmlRow.style.display = "none";
+	} else {
+		scaleRow.style.display = "none";
+		svgXmlRow.style.removeProperty("display");
+	}
+	var svgXml = document.getElementById("svg-xml-output");
+	svgXml.value = "";
+	
+	// Reset output images in case of early termination
+	var canvas = document.getElementById("qrcode-canvas");
+	var svg = document.getElementById("qrcode-svg");
+	canvas.style.display = "none";
+	svg.style.display = "none";
+	
+	// Returns a QrCode.Ecc object based on the radio buttons in the HTML form.
+	function getInputErrorCorrectionLevel() {
+		if (document.getElementById("errcorlvl-medium").checked)
+			return qrcodegen.QrCode.Ecc.MEDIUM;
+		else if (document.getElementById("errcorlvl-quartile").checked)
+			return qrcodegen.QrCode.Ecc.QUARTILE;
+		else if (document.getElementById("errcorlvl-high").checked)
+			return qrcodegen.QrCode.Ecc.HIGH;
+		else  // In case no radio button is depressed
+			return qrcodegen.QrCode.Ecc.LOW;
+	}
+	
+	// Get form inputs and compute QR Code
+	var ecl = getInputErrorCorrectionLevel();
+	var text = document.getElementById("text-input").value;
+	var segs = qrcodegen.QrSegment.makeSegments(text);
+	var minVer = parseInt(document.getElementById("version-min-input").value, 10);
+	var maxVer = parseInt(document.getElementById("version-max-input").value, 10);
+	var mask = parseInt(document.getElementById("mask-input").value, 10);
+	var boostEcc = document.getElementById("boost-ecc-input").checked;
+	var qr = qrcodegen.QrCode.encodeSegments(segs, ecl, minVer, maxVer, mask, boostEcc);
+	
+	// Draw image output
+	var border = parseInt(document.getElementById("border-input").value, 10);
+	if (border < 0 || border > 100)
+		return;
+	if (bitmapOutput) {
+		var scale = parseInt(document.getElementById("scale-input").value, 10);
+		if (scale <= 0 || scale > 30)
+			return;
+		qr.drawCanvas(scale, border, canvas);
+		canvas.style.removeProperty("display");
+	} else {
+		var code = qr.toSvgString(border);
+		svg.setAttribute("viewBox", / viewBox="([^"]*)"/.exec(code)[1]);
+		svg.querySelector("path").setAttribute("d", / d="([^"]*)"/.exec(code)[1]);
+		svg.style.removeProperty("display");
+		svgXml.value = qr.toSvgString(border);
+	}
+	
+	// Returns a string to describe the given list of segments.
+	function describeSegments(segs) {
+		if (segs.length == 0)
+			return "none";
+		else if (segs.length == 1) {
+			var mode = segs[0].mode;
+			var Mode = qrcodegen.QrSegment.Mode;
+			if (mode == Mode.NUMERIC     )  return "numeric";
+			if (mode == Mode.ALPHANUMERIC)  return "alphanumeric";
+			if (mode == Mode.BYTE        )  return "byte";
+			if (mode == Mode.KANJI       )  return "kanji";
+			return "unknown";
+		} else
+			return "multiple";
+	}
+	
+	// Returns the number of Unicode code points in the given UTF-16 string.
+	function countUnicodeChars(str) {
+		var result = 0;
+		for (var i = 0; i < str.length; i++, result++) {
+			var c = str.charCodeAt(i);
+			if (c < 0xD800 || c >= 0xE000)
+				continue;
+			else if (0xD800 <= c && c < 0xDC00 && i + 1 < str.length) {  // High surrogate
+				i++;
+				var d = str.charCodeAt(i);
+				if (0xDC00 <= d && d < 0xE000)  // Low surrogate
+					continue;
+			}
+			throw "Invalid UTF-16 string";
+		}
+		return result;
+	}
+	
+	// Show the QR Code symbol's statistics as a string
+	var stats = "QR Code version = " + qr.version + ", ";
+	stats += "mask pattern = " + qr.mask + ", ";
+	stats += "character count = " + countUnicodeChars(text) + ",\n";
+	stats += "encoding mode = " + describeSegments(segs) + ", ";
+	stats += "error correction = level " + "LMQH".charAt(qr.errorCorrectionLevel.ordinal) + ", ";
+	stats += "data bits = " + qrcodegen.QrSegment.getTotalBits(segs, qr.version) + ".";
+	document.getElementById("statistics-output").textContent = stats;
+}
+
+
+function handleVersionMinMax(which) {
+	var minElem = document.getElementById("version-min-input");
+	var maxElem = document.getElementById("version-max-input");
+	var minVal = parseInt(minElem.value, 10);
+	var maxVal = parseInt(maxElem.value, 10);
+	minVal = Math.max(Math.min(minVal, qrcodegen.QrCode.MAX_VERSION), qrcodegen.QrCode.MIN_VERSION);
+	maxVal = Math.max(Math.min(maxVal, qrcodegen.QrCode.MAX_VERSION), qrcodegen.QrCode.MIN_VERSION);
+	if (which == "min" && minVal > maxVal)
+		maxVal = minVal;
+	else if (which == "max" && maxVal < minVal)
+		minVal = maxVal;
+	minElem.value = minVal.toString();
+	maxElem.value = maxVal.toString();
+	redrawQrCode();
+}
+
+
+redrawQrCode();
+	
+<!-- //footer -->
+	<script src="js/responsiveslides.min.js"></script>
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>
